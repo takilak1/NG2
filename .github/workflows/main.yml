@@ -12,10 +12,9 @@ jobs:
     - name: Download Ngrok.
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/7onez/AdityaRDP/main/start.bat -OutFile start.bat
-        Invoke-WebRequest https://i.imgur.com/vuXVHI4.png -OutFile wallpaper.png
-        Invoke-WebRequest https://raw.githubusercontent.com/7onez/AdityaRDP/main/wallpaper.bat -OutFile wallpaper.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/7onez/AdityaRDP/main/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/akuhnet/rdpmei/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/akuhnet/rdpmei/main/wallpaper.png -OutFile wallpaper.bmp
+        Invoke-WebRequest https://raw.githubusercontent.com/akuhnet/rdpmei/main/wallpaper.bat -OutFile wallpaper.bat
     - name: Download Launcher.
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/7onez/AdityaRDP/main/launcher/Node.js.lnk -OutFile Node.js.lnk
